@@ -1,0 +1,29 @@
+[
+{
+  "Project1": {
+    "image": "../img/tamogatchiImg.png",
+    "name": "Tamagotchi",
+    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+  },
+  "Project2": {
+    "image": "../img/tamogatchiImg.png",
+    "name": "Tamagotchi",
+    "description": "This challenge was our first milestone project at NSS. The project was designed to test the skills we had learned up to this point in the course and get a feel for where we stood. The Idea behind the project was to do this project alone, and get a feel for where you are in the learning journey. It also built upon all the different concepts we had learned up to this point."
+  },
+  "Project3": {
+    "image": "../img/tamogatchiImg.png",
+    "name": "Tamagotchi",
+    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+  },
+  "Project4": {
+    "image": "../img/tamogatchiImg.png",
+    "name": "Tamagotchi",
+    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+  },
+  "Project5": {
+    "image": "../img/tamogatchiImg.png",
+    "name": "Tamagotchi",
+    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+  }
+}
+]
