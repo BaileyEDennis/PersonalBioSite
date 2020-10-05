@@ -1,29 +1,32 @@
-[
 {
   "Project1": {
     "image": "../img/tamogatchiImg.png",
     "name": "Tamagotchi",
-    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity. It's a fun little project, please check it out and enjoy!",
+    "link" : "https://sharp-aryabhata-6c0aea.netlify.app/"
   },
   "Project2": {
-    "image": "../img/tamogatchiImg.png",
-    "name": "Tamagotchi",
-    "description": "This challenge was our first milestone project at NSS. The project was designed to test the skills we had learned up to this point in the course and get a feel for where we stood. The Idea behind the project was to do this project alone, and get a feel for where you are in the learning journey. It also built upon all the different concepts we had learned up to this point."
+    "image": "../img/dinoImg.png",
+    "name": "Dino Kennel",
+    "description": "This challenge was our first milestone project at NSS. The project was designed to test the skills we had learned up to this point in the course and get a feel for where we stood. The Idea behind the project was to do this project alone, and get a feel for where you are in the learning journey. It also built upon all the different concepts we had learned up to this point.",
+    "link" : "https://optimistic-golick-3749f3.netlify.app/"
   },
   "Project3": {
-    "image": "../img/tamogatchiImg.png",
-    "name": "Tamagotchi",
-    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+    "image": "../img/petImg.png",
+    "name": "Pet Adoption",
+    "description": "One of my earlier group projects, this site shows multiple pet cards on display. What is fun about it are the sort buttons. On click of the button, only certain cards are shown, for instance if you click on the \"dinos\" button, only dinosaur pets are shown!",
+    "link" : "https://confident-villani-93f0af.netlify.app/"
   },
   "Project4": {
-    "image": "../img/tamogatchiImg.png",
-    "name": "Tamagotchi",
-    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+    "image": "../img/sortImg.png",
+    "name": "Sorting Hat",
+    "description": "This project we worked on creating a sorting hat, Harry Potter Style! It demonstrates using javascript and bootstrap forms to take the name of a student, and randomly assign them to a Hogwarts house. This is all created and drawn to the DOM upon button click, and event listeners are used as well.",
+    "link" : "https://friendly-mcnulty-580ed7.netlify.app/"
   },
   "Project5": {
-    "image": "../img/tamogatchiImg.png",
-    "name": "Tamagotchi",
-    "description": "This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity."
+    "image": "../img/lotrImg.png",
+    "name": "Chatty",
+    "description": "Another group project. The concept was to create a chat website for Lord Of The Rings fans. We worked to add features such as dark and light modes, time stamps to messages, font size alterations, charachter selectors, and the ability to remove old messages!",
+    "link" : "https://lotr-chatty.netlify.app/"
   }
 }
-]
