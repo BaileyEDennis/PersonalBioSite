@@ -3,9 +3,12 @@ const bioDom = () => {
   const domString = `
   <img id="photo" src="/img/me.jpg" alt="me"></img>
   <div id="frame">
-  <p>Since childhood, Bailey has been facinated by computers. She began with an old family PC running MS-DOS on an intel 80386. From this humblpe (and frustrating!) beginning bloomed a passion for computing. In highschool she focused on adding programming classes into
+  <p>Since childhood, Bailey has been facinated by computers. 
+  She began with an old family PC running MS-DOS on an intel 80386. From this humblpe (and frustrating!) 
+  beginning bloomed a passion for computing. In highschool she focused on adding programming classes into
   her cirriculum such as Microsoft Visual Basic, and installed Linux (Debian) on the first computer she built.</p> 
-  <p>In University she took courses in python and C++ but ultimately majored with a Bachelor of Science in Integrated Studies from MTSU in 2019, after spending some time away to become an EMT. She now focuses on honing her programming skills and pursues a carreer in development.</p>
+  <p>In University she took courses in python and C++ but ultimately majored with a Bachelor of Science in 
+  Integrated Studies from MTSU in 2019, after spending some time away to become an EMT. She now focuses on honing her programming skills and pursues a carreer in development.</p>
   </div>
   `;
   $('#Bio').append(domString);
@@ -20,15 +23,14 @@ const techDom = () => {
   <h3><i class="fab fa-js"></i></h3>
   <h3><i class="fab fa-npm"></i></h3>
   <h3><i class="fab fa-bootstrap"></i></h3>
+  <h3><i class="fab fa-react"></i></h3>
   <h3><i class="fas fa-terminal"></i></h3>
   `;
   $('#Tech').append(domString);
 };
 
-const projDom = (list) => {
-  const taco = Object.values(list);
-  taco.forEach((item) => {
-    const domString = `
+const projDom = (item) => {
+  const domString = `
     <div class="wholeCard" style="width: 19rem;">
       <div class="card" style="width: 18rem;">
         <img src="${item.image}" class="card-img-top" alt="...">
@@ -40,8 +42,20 @@ const projDom = (list) => {
       </div>
   </div>
      `;
-    $('#Projects').append(domString);
-  });
+  return domString;
 };
 
-export default { projDom, techDom, bioDom };
+const footDom = () => {
+  const domString = `
+  <p>Author: Bailey Dennis</p>
+  <p><a href="mailto:bailey.elise.dennis@gmail.com">bailey.elise.dennis@gmail.com</a></p>
+  <p><a href="https://github.com/BaileyEDennis">Github</a></p>
+  <p><a href="https://www.linkedin.com/in/bailey-dennis-19ba121b4/">LinkedIn</a></p>
+  <p><a href="https://twitter.com/TrashInBailsout">Twitter</a></p>
+  `;
+  return domString;
+};
+
+export default {
+  projDom, techDom, bioDom, footDom
+};
