@@ -1,14 +1,15 @@
 const bioDom = () => {
   $('#Bio').html('');
   const domString = `
-  <img id="photo" src="/img/me.jpg" alt="me"></img>
+  <img id="photo" src="https://firebasestorage.googleapis.com/v0/b/bailey-248b7.appspot.com/o/me.jpg?alt=media&token=a70a7a73-67d6-4b9e-a78b-3679dd4dea29" alt="me"></img>
   <div id="frame">
   <p>Since childhood, Bailey has been facinated by computers. 
   She began with an old family PC running MS-DOS. From this humble (and frustrating!) 
   beginning bloomed a passion for computing. In highschool she focused on adding programming classes into
   her cirriculum such as Microsoft Visual Basic, and installed Linux (Debian) on the first computer she built.</p> 
   <p>In University she took courses in python and C++ but ultimately majored with a Bachelor of Science in 
-  Integrated Studies from MTSU in 2019, after spending some time away to become an EMT. She now is a student attending Nashville Software School, attending a full stack program with focuses on React, C#, and .NET.</p>
+  Integrated Studies from MTSU in 2019, after spending some time away to become an EMT. She now is a student attending 
+  Nashville Software School, attending a full stack program with focuses on React, C#, and .NET.</p>
   </div>
   `;
   $('#Bio').append(domString);
