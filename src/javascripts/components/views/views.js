@@ -1,7 +1,7 @@
 const bioDom = () => {
   $('#Bio').html('');
   const domString = `
-  <img id="photo" src="https://firebasestorage.googleapis.com/v0/b/bailey-248b7.appspot.com/o/me.jpg?alt=media&token=a70a7a73-67d6-4b9e-a78b-3679dd4dea29" alt="me"></img>
+  <img id="photo" src="img/me.jpg" alt="me"></img>
   <div id="frame">
   <p>Since childhood, Bailey has been facinated by computers. 
   She began with an old family PC running MS-DOS. From this humble (and frustrating!) 
