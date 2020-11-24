@@ -18,6 +18,7 @@ const bioDom = () => {
 const techDom = () => {
   $('#Tech').html('');
   const domString = `
+  <h3><i class="fab fa-node"></i></h3>
   <h3><i class="fab fa-html5"></i></h3>
   <h3><i class="fab fa-sass"></i></h3>
   <h3><i class="fab fa-github-square"></i></h3>
@@ -32,13 +33,16 @@ const techDom = () => {
 
 const projDom = (item) => {
   const domString = `
-    <div class="wholeCard" style="width: 19rem;">
-      <div class="card" style="width: 18rem;">
+    <div class="container-fluid content-row" style="width: 19rem;">
+      <div class="card row" style="width: 18rem;">
         <img src="${item.image}" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body h-100">
           <h5 class="card-title">${item.name}</h5>
           <p class="card-text">${item.description}</p>
-          <a href="${item.link}" class="btn btn-primary">See It!</a>
+          <div id="btn-area">
+            <a href="${item.link}" class="btn btn-primary">See The Live Project!</a>
+            <a href="${item.github}" class="btn btn-dark">Github Information</a>
+          </div>
         </div>
       </div>
   </div>
