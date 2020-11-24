@@ -2,8 +2,13 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import './components';
 
+a.nav-link {
+  font-size: 1.2rem;
+  margin-right: 3rem;
+}
+
 body {
-  background-color: rgb(126, 28, 133);
+  background-color: #777;
 }
 
 #app {
@@ -19,7 +24,21 @@ body {
   display: none;
 }
 
+#Projects {
+  display: flex;
+  justify-content: space-evenly;
+    .card {
+      margin: 1rem;
+    }
+}
+
 #logoPng {
   width: 185px;
   height: 80px;
+}
+
+#btn-area {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2px;
 }
