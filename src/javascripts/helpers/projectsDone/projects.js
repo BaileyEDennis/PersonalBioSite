@@ -2,15 +2,14 @@ import projectData from './projectData';
 import views from '../../components/views/views';
 
 const getProjects = () => {
-  $('#Bio').html('<h2>Bio</h2>');
-  $('#Tech').html('<h2>Tech</h2>');
+  $('#Projects').html('<h1>Projects</h1><div id="proj-area"></div>');
   projectData.grabProjects().then((response) => {
     if (response.length) {
       response.forEach((item) => {
-        $('#Projects').append(views.projDom(item));
+        $('#proj-area').append(views.projDom(item));
       });
     } else {
-      $('#Projects').append('<h1>No Projects</h1>');
+      $('#proj-area').append('<h1>No Projects</h1>');
     }
   });
 };

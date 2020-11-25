@@ -2,13 +2,26 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import './components';
 
-a.nav-link {
-  font-size: 1.2rem;
-  margin-right: 3rem;
+.jumbotron{
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  .page-links{
+    display: flex;
+    justify-content: center;
+    a {
+      color: black;
+    }
+    a:hover {
+      color: #00A0C6;
+      cursor: pointer;
+    }
+  }
 }
 
 body {
-  background-color: #777;
+  margin: 0;
+  padding: 0;
+  background-color: white;
 }
 
 #app {
@@ -22,23 +35,4 @@ body {
 
 .hide {
   display: none;
-}
-
-#Projects {
-  display: flex;
-  justify-content: space-evenly;
-    .card {
-      margin: 1rem;
-    }
-}
-
-#logoPng {
-  width: 185px;
-  height: 80px;
-}
-
-#btn-area {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 2px;
 }
