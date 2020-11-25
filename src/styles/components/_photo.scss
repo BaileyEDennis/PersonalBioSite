@@ -1,0 +1,12 @@
+#Photo{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://miro.medium.com/max/8064/1*8r6hvv5E-FOOdKOih4G7Hg.jpeg");
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    #photog {
+        height: 30rem;
+    }
+}

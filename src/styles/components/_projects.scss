@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
 #Projects {
+  h1 {
+    text-align: center;
+    font-family: $montserrat;
+  }
+}
+#proj-area {
+  .card-img-top {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 10rem;
+    object-fit: cover;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card {
+    margin: 1rem;
+  }
+  .row {
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #btn-area {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
+    margin: 2px;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 2.5rem;
+  }
+
+  h5 {
+      font-family: $raleway;
+      font-weight: bold;
+      color:  #00A0C6;
+  }
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
