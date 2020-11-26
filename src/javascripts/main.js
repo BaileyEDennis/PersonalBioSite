@@ -11,6 +11,7 @@ import '../styles/main.scss';
 const init = () => {
   getView.getViewport();
   nav.navBarDom();
+  nav.modeChange();
   pic.getPicture();
   projects.getProjects();
   technology.displayTech();

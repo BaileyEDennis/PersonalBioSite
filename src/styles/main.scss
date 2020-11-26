@@ -2,17 +2,25 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import './components';
 
-.jumbotron{
+.dark-mode {
+  background-color: black;
+  color: lightgray;
+  #proj-card {
+    background-color: grey;
+  }
+}
+
+.jumbotron {
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  .page-links{
+  .page-links {
     display: flex;
     justify-content: center;
     a {
       color: black;
     }
     a:hover {
-      color: #00A0C6;
+      color: #00a0c6;
       cursor: pointer;
     }
   }
