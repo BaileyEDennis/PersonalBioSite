@@ -40,13 +40,22 @@ $raleway: 'Raleway', sans-serif;
   }
 
   h5 {
-      font-family: $raleway;
-      font-weight: bold;
-      color:  #00A0C6;
+    font-family: $raleway;
+    font-weight: bold;
+    color: #00a0c6;
   }
 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.dark-mode {
+  .card-img-top {
+    box-shadow: 0 4px 8px 0 rgb(245, 245, 245), 0 6px 20px 0 rgb(245, 245, 245);
+  }
+  #proj-card {
+    box-shadow: 0 4px 8px 0 rgb(245, 245, 245), 0 6px 20px 0 rgb(245, 245, 245);
+  }
 }
