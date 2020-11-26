@@ -2,7 +2,7 @@
 
 This website is a showcase for my projects, information about me, and links to my github, twitter, and more! 
 
-![image](./img/sitePic.png)
+![image](./img/siteImage.png)
 
 ## Deployment
 
