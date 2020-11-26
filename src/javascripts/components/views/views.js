@@ -42,7 +42,7 @@ const techDom = () => {
 const projDom = (item) => {
   const domString = `
     <div class="container-fluid content-row" style="width: 19rem;">
-      <div class="card row" style="width: 18rem; height: 30rem;">
+      <div id="proj-card" class="card row" style="width: 18rem; height: 30rem;">
         <img src="${item.image}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${item.name}</h5>
